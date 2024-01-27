@@ -1,0 +1,36 @@
+.searchedContainer {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.searchGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 3rem;
+    margin: 5% 20%;
+
+}
+
+.searchCard {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.searchCard img{
+    width: 100%;
+    display: flex;
+    border-radius: 2rem;
+}
+
+.searchCard a {
+    text-decoration: none;
+}
+
+.searchCard h4 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}

@@ -1,0 +1,40 @@
+.containerCategory {
+    margin-bottom: 100px;
+}
+
+.containerCategory h3 {
+    margin-left: 42%;
+    margin-bottom: 25px;
+}
+
+.CategoryGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 3rem;
+    margin: 5% 20%;
+    margin-bottom: 100px;
+
+}
+
+.CategoryCard {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.CategoryCard img{
+    width: 100%;
+    display: flex;
+    border-radius: 2rem;
+}
+
+.CategoryCard a {
+    text-decoration: none;
+}
+
+.CategoryCard h4 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}
